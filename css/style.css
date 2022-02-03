@@ -1,0 +1,57 @@
+.nav{
+    background-color: #24252a;
+    height: 55px;
+    border: 1px solid #24252a;
+    border-radius: 10px;
+    margin: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+ul{
+    text-decoration: none;
+    position: relative;
+    bottom: 8px;
+    left: 438px;
+}
+.register{
+    position: relative;
+    left: 384px;
+    background-color: rgb(64,168,255);
+    border: 1px solid #24252a;
+    border-radius: 100px;
+    width:112px;
+    height: 24px;
+}
+a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+}
+.photo1{
+    position: relative;
+    top: 18px;
+    left: 19px;
+}
+.photo2{
+    position: relative;
+    left: 469px;
+    bottom: 286px;
+}
+.photo{
+    left: 20px;
+    position: relative;
+    top: 20px;
+}
+.name{
+    position: relative;
+    top: 15px;
+    color: white;
+    font-size: larger;
+}
