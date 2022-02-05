@@ -1,9 +1,8 @@
 .nav{
     background-color: #24252a;
-    height: 55px;
     border: 1px solid #24252a;
-    border-radius: 10px;
     margin: 10px;
+    border-radius: 10px;
 }
 *{
     margin: 0;
@@ -44,14 +43,220 @@ a{
     left: 469px;
     bottom: 286px;
 }
+.photo3{
+    position: relative;
+    bottom: 593px;
+    left: 896px;
+}
 .photo{
     left: 20px;
     position: relative;
     top: 20px;
+}
+.photo4{
+    
+    position: relative;
+    bottom: 593px;
+    left: 19px;
+}
+.photo5{
+    z-index: 2;
+    position: relative;
+    bottom: 900px;
+    left: 469px;
+}
+.photo6{
+    
+    position: relative;
+    bottom: 1207px;
+    left: 896px;
+}
+.photo7{
+    
+    position: relative;
+    bottom: 1197px;
+    left: 17px;
+}
+.photo8{
+    
+    position: relative;
+    bottom: 1553px;
+    left: 469px;
+}
+.photo9{
+    
+    position: relative;
+    bottom: 1965px;
+    left: 896px
+}
+.photo10{
+    position: relative;
+    bottom: 1955px;
+    left: 17px;
+}
+.photo11{
+    position: relative;
+    bottom: 2263px;
+    left: 468px;
 }
 .name{
     position: relative;
     top: 15px;
     color: white;
     font-size: larger;
+}
+.i2{
+    position: relative;
+    left:558px;
+    top: 10px;
+}
+.i3{
+    position: relative;
+    left:643px;
+    top: 20px;
+}
+.i1{
+    text-align:center;
+}
+footer{
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(64,64,64);
+    position: relative;
+    bottom: 2064px;
+}
+@media screen and (max-width:900px) {
+    .nav{
+        background-color: #24252a;
+        height: 55px;
+        border: 1px solid #24252a;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .photo5{
+        position: relative;
+        bottom: 207px;
+        left: 125px;
+    }
+    .img4{
+        width: 100px;
+    }
+    .img2{
+           width: 100px;
+    }
+    .photo3{
+        position: relative;
+        bottom: 133px;
+        left: 243px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        position: relative;
+        display: inline-block;
+    }
+    ul{
+        text-decoration: none;
+        position: relative;
+        /* bottom: 8px; */
+        left: 38px;
+        top: 5px;
+        font-size: xx-small;
+    }
+    .register{
+        position: relative;
+        left: 34px;
+        background-color: rgb(64,168,255);
+        border: 1px solid #24252a;
+        border-radius: 100px;
+        width:112px;
+        display: none;
+        height: 24px;
+    }
+    a{
+        text-decoration: none;
+        padding: 30px;
+        color: white;
+    }
+    .photo1{
+        position: relative;
+        top: 32px;
+        left: 9px;
+    }
+    .photo4{
+        position: relative;
+        left: 9px;
+        top: -125px;
+    }
+    .photo2{
+        position: relative;
+        left: 126px;
+        top: -51px;
+  }
+    .photo{
+        left: 20px;
+        position: relative;
+        top: 20px;
+    }
+    .name{
+        position: relative;
+        top: 15px;
+        color: white;
+        font-size: xx-small;
+    }
+   .photo6{
+    position: relative;
+    top: -290px;
+    left: 242px;
+   }
+   .photo7{
+    position: relative;
+    top: -284px;
+    left: 8px;
+   }
+   .photo8{
+    position: relative;
+    top: -368px;
+    left: 124px;
+   }
+   .photo9{
+    position: relative;
+    top: -452px;
+    left: 241px;
+   }
+   .photo10{
+    position: relative;
+    top: -449px;
+    left: 8px;
+}
+   .img{
+      width: 100px;
+    }
+    .img1{
+        width: 100px;
+    }
+    .img3{
+        width: 100px;
+    }
+    .img4{
+        width: 100px;
+    }
+    .img5{
+        width: 100px;
+        height: 76px;
+    }
+    .img6{
+        width: 100px;
+        height: 76px;
+    }
+    .img7{
+        width: 100px;
+        height: 76px;
+    }
+    .img8{
+        width: 100px;
+    }
 }
